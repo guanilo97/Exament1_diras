@@ -1,0 +1,22 @@
+﻿
+
+
+
+
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 text-center mt-3 mb-3">
+            <div>
+                <a href="/blog/detalle?id=@item.Id"> @item.Titulo</a>
+                <br />
+                <small>@item.Autor</small>
+                <br />
+                <small>@item.Fecha</small>
+
+            </div>
+            <a href="/blog/crear">Crear Nuevo </a>
+        </div>}
+</div>
+
