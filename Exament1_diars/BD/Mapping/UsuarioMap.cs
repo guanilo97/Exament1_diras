@@ -1,4 +1,5 @@
 ﻿using Exament1_diars.Models;
+using Exament3.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -8,11 +9,12 @@ using System.Threading.Tasks;
 
 namespace Exament1_diars.BD.Mapping
 {
-    public class BlogMap : IEntityTypeConfiguration<Blog>
+    public class UsuarioMap : IEntityTypeConfiguration<Usuario>
     {
-        public void Configure(EntityTypeBuilder<Blog> builder)
+
+        public void Configure(EntityTypeBuilder<Usuario> builder)
         {
-            builder.ToTable("Blog");
+            builder.ToTable("Usuario");
             builder.HasKey(o => o.Id);
         }
     }

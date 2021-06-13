@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BMI0LO3Va+IfKRHLn/X+WmWca9gdxwVt/Iej5JZNlb9FKFUSY05Q1jo+C0is2yAEq33uCKSXGRE51PfWyHW0Eg==",
+  "dgSpecHash": "30l1qBapGRD+HsE4bTE06u2SAV75XIGH0LzZW5+Hw+JY5UoXIvHiCx8+OOKDrGBMls6LssgxeGZUMOKUiSt8gQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\Exament1_diars\\Exament1_diars\\Exament1_diars.csproj",
+  "projectFilePath": "C:\\Users\\HP\\source\\repos\\Exament3_diars_Jefri\\Exament1_diars\\Exament1_diars.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,0 +1,26 @@
+﻿
+<section class="content">
+    <br />
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Número</th>
+                <th>Nombre ejercicio</th>
+                <th>Tiempo</th>
+                <th>Video</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>@item.Numero</td>
+                <td>@item.Nombre_ejercicio</td>
+                <td>@item.Tiempo segundos</td>
+                <td><a href="@item.Video">Ir al video</a></td>
+            </tr>
+            }
+        </tbody>
+    </table>
+
+</section>

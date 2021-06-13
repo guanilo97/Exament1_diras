@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\Exament1_diars\\Exament1_diars\\Exament1_diars.csproj": {}
+    "C:\\Users\\HP\\source\\repos\\Exament3_diars_Jefri\\Exament1_diars\\Exament1_diars.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\Exament1_diars\\Exament1_diars\\Exament1_diars.csproj": {
+    "C:\\Users\\HP\\source\\repos\\Exament3_diars_Jefri\\Exament1_diars\\Exament1_diars.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Exament1_diars\\Exament1_diars\\Exament1_diars.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Exament3_diars_Jefri\\Exament1_diars\\Exament1_diars.csproj",
         "projectName": "Exament1_diars",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\Exament1_diars\\Exament1_diars\\Exament1_diars.csproj",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\Exament3_diars_Jefri\\Exament1_diars\\Exament1_diars.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\Exament1_diars\\Exament1_diars\\obj\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\Exament3_diars_Jefri\\Exament1_diars\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

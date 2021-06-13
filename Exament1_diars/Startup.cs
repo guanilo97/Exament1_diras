@@ -1,5 +1,6 @@
 
 using Exament1_diars.BD;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,8 +29,10 @@ namespace Exament1_diars
         {
             services.AddControllersWithViews();
             services.AddDbContext<AppBlogContext>(
-              o => o.UseSqlServer("Server=DESKTOP-C3T7644;Database=exament1;User Id=diars_user;Password=123456;Trusted_Connection=False;MultipleActiveResultSets=True")
+              o => o.UseSqlServer("Server=DESKTOP-C3T7644;Database=exament3;User Id=diars_user;Password=123456;Trusted_Connection=False;MultipleActiveResultSets=True")
           );
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).
+              AddCookie(o => o.LoginPath = "/auth/login");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,14 +52,16 @@ namespace Exament1_diars
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            //Ingresar -> useAuthorizacion - Use_Authentication
+            app.UseAuthentication();
             app.UseAuthorization();
+            
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Auth}/{action=Login}/{id?}");
             });
         }
     }

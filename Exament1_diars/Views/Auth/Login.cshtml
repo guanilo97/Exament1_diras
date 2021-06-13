@@ -1,0 +1,24 @@
+﻿<h1 class="text-center">Iniciar Sesión</h1>
+<!-- /.navbar-header -->
+<form method="post" action="/auth/login">
+    @if (TempData["AuthMessaje"] != null)
+    {
+        <p>@TempData["AuthMessaje"]</p>
+    }
+    <div class="form-group">
+        <label for="Username">Username</label>
+        <input type="text" name="Username" class="form-control form-control-line" id="Username">
+    </div>
+    <div class="form-group">
+        <label for="example-password">Password</label>
+        <input type="password" name="Password" placeholder="*****" id="Password" class="form-control form-control-line">
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-block btn-lg btn-primary text-uppercase fs-12 fw-600">Iniciar sesión</button>
+    </div>
+    <div class="form-group no-gutters mb-0">
+        <div class="col-md-12 d-flex">
+            <a href="/auth/create" class="my-auto pb-2 text-right"><i class="material-icons mr-2 fs-18"></i> Registrarme</a>
+        </div>
+    </div>
+</form>

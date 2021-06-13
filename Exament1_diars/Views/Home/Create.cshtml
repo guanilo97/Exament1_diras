@@ -1,0 +1,22 @@
+﻿
+
+
+<br />
+<br />
+<form action="/Home/Create" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+        <label class="control-label">Nombre de la rutina</label>
+        <input type="text" name="Nombre_Rutina" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Tipo de rutina</label>
+        <select name="TipoRutina" class="form-control">
+            <option value="null">-- Selecciona Tipo de rutina --</option>
+            <option value="Principiante">Principiante</option>
+            <option value="Intermedio">Intermedio</option>
+            <option value="Avanzado">Avanzado</option>
+        </select>
+        <br />
+        <button class="btn btn-success">Crear</button>
+    </div>
+</form>
